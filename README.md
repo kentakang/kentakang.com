@@ -1,2 +1,3 @@
 # kentakang.com
-kentakang.com Source
+kentakang.com is licensed under the MIT License. (http://opensource.org/licenses/MIT)
+Animate.css is licensed under the MIT license. (http://opensource.org/licenses/MIT)
