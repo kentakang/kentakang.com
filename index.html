@@ -4,7 +4,8 @@
 		<meta charset="UTF-8">
 		<link href="./css/style.css" rel="stylesheet">
 		<link href="./css/animate.css" rel="stylesheet">
-		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="./js/script.js"></script>
 		<title>kentakang.com</title>
 	</head>
 	<body>
@@ -12,17 +13,23 @@
 			<p>You can check the <a href="http://kentakang.com">kentakang.com</a> source from <a href="https://github.com/kentakang/kentakang.com" target="blank">GitHub</a></p>
 		</div>
 		<div class="content">
+			<div class="portfolio"></div>
 			<div class="header">
 				<a class="animated slideInUp logo" href="http://kentakang.com">@kentakang</a>
 			</div>
 			<div class="nav">
 				<ul class="animated bounceInUp">
 					<li><a href="https://twitter.com/lansys05" target="blank">Twitter</a></li>
-					<li><a href="#portfolio" target="blank">Portfolio</a></li>
+					<li><a id="call_portfolio" href="#" target="blank">Portfolio</a></li>
 					<li><a href="mailto:kentakang@icloud.com" target="blank">E-Mail</a></li>
 					<li><a href="https://github.com/kentakang/" target="blank">Github</a></li>
 				</ul>
 			</div>
 		</div>
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+			<filter id="blur">
+				<feGaussianBlur stdDeviation="6" />
+			</filter>
+		</svg>
 	</body>
 </html>
