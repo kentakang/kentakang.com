@@ -112,7 +112,8 @@ a:hover {
 	-webkit-filter: blur(5px);
 	-moz-filter: blur(5px);
 	-o-filter: blur(5px);
-	filter:url(#blur);
+	filter:url(blur.svg#blur);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='6');
 }
 
 .port_header {
