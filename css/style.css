@@ -115,6 +115,15 @@ a:hover {
         -ms-filter: blur(5px);
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .blur {
+        background:url('../img/ie_bg.jpg') no-repeat left top;
+	   -webkit-background-size: cover;
+	   -moz-background-size: cover;
+	   background-size: cover;
+    }
+}
+
 .port_header {
 	display: inline-block;
 	padding: 2em 3em 18px 3em;
