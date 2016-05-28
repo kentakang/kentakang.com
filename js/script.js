@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    var portfolio = document.getElementsByClassName('portfolio')
 	$('.portfolio').hide();
 	$('#call_portfolio').click(function(){
 		$('.portfolio').removeClass('animated slideOutLeft');
