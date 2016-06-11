@@ -119,7 +119,7 @@ a:hover {
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     .blur {
-        background:url('../img/ie_bg.jpg') no-repeat left top;
+      background:url('../img/ie_bg.jpg') no-repeat left top;
 	   -webkit-background-size: cover;
 	   -moz-background-size: cover;
 	   background-size: cover;
@@ -155,6 +155,40 @@ a:hover {
 	font-size: 1.25em;
 	line-height: 1.5em;
 	margin: 0.5em 0 0 0;
+}
+
+.port_content {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.port_content > ul > li {
+  float: left;
+  list-style: none;
+  margin: 10px;
+}
+
+.port_content > ul > li a > img:hover {
+    opacity:0.3;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.port_content > ul > li a > img:after {
+    opacity:1;
+}
+
+.port_content > ul > li > a > img {
+  width: 400px;
+  height: 300px;
+}
+
+.port_content > ul > li > a > p {
+  z-index: -1;
+  position: absolute;
+  top: 8px;
+  font-size: 1.6em;
+  margin-left: 10px;
 }
 
 .close_btn {
