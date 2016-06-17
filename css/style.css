@@ -13,12 +13,16 @@ html, body {
 }
 
 body {
-	background:url('../img/bg.jpg') no-repeat left top;
+	background:url('http://cdn.kentakang.com/bg.jpg') no-repeat left top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	font-family: NanumGothic, 'NanumGothic';
 	overflow: hidden;
+}
+
+a {
+  text-decoration: none;
 }
 
 a:hover {
@@ -47,22 +51,26 @@ a:hover {
 }
 
 .nav {
-	text-align: center;
+  position: relative;
 }
 
 .nav > ul {
-	display: table;
-	margin-left: auto;
-	margin-right: auto;
+	float: left;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  position: relative;
 	-moz-animation-delay: 0.5s;
 	-webkit-animation-delay: 0.5s;
 	animation-delay: 0.5s;
 }
 
 .nav > ul > li {
-	list-style: none;
-	float: left;
-	padding: 0 30px;
+  float: left;
+  list-style: none outside none;
+  padding: 0 30px;
+  position: relative;
+  right: 50%;
 }
 
 .nav > ul > li > a {
@@ -87,7 +95,7 @@ a:hover {
 	margin: 0;
 	padding: 8px;
 	color: #fff;
-  font-size: 1em;
+  font-size: 100%;
 }
 
 .alert_box p a {
@@ -119,7 +127,7 @@ a:hover {
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     .blur {
-      background:url('../img/ie_bg.jpg') no-repeat left top;
+      background:url('http://cdn.kentakang.com/ie_bg.jpg') no-repeat left top;
 	   -webkit-background-size: cover;
 	   -moz-background-size: cover;
 	   background-size: cover;
@@ -162,6 +170,14 @@ a:hover {
   margin-left: 40px;
 }
 
+.port_content > p {
+  margin-top: 15%;
+}
+
+.port_content > p > a {
+  color: #40BCC9;
+}
+
 .port_content > ul > li {
   float: left;
   list-style: none;
@@ -199,4 +215,49 @@ a:hover {
 	text-decoration: none;
 	font-weight: bold;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footer {
+  position: fixed;
+  bottom: 30px;
+  color: #fff;
+  font-size: 8pt;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.footer > a {
+  color: #40BCC9;
+}
+
+@media screen and (max-width: 768px) {
+
+  .alert_box p {
+    font-size: 72%;
+  }
+
+  .nav > ul {
+    display: block;
+    text-align: center;
+  	-moz-animation-delay: 0.5s;
+  	-webkit-animation-delay: 0.5s;
+  	animation-delay: 0.5s;
+  }
+
+  .nav > ul > li {
+    clear: both;
+  	list-style: none;
+    padding: 20px 0 0 0;
+  }
+
+  .header {
+  	padding: 10% 0 20% 0;
+  	display: table;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+
 }
