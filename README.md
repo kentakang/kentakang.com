@@ -8,3 +8,5 @@ Animate.css is licensed under the MIT license. (http://opensource.org/licenses/M
 Repository of Animate.css (https://github.com/daneden/animate.css), Thanks for [@daneden](https://github.com/daneden/)
 
 And thanks for [@pretseoyeon](https://github.com/pretseoyeon)
+
+Copyright by 2016 Kentastudio All rights reserved.
