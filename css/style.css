@@ -260,4 +260,51 @@ a:hover {
   	margin-right: auto;
   }
 
+  .portfolio {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: -40px;
+    z-index: 99;
+  }
+
+  .portfolio > .close_btn {
+    position: fixed;
+    top: 0;
+    right: -10px;
+    color: #fff;
+  }
+
+  .portfolio > .close_btn:hover {
+    color: #d3d3d3;
+  }
+
+  .port_header {
+    min-height: 150px;
+    padding: 2.2em;
+  }
+
+  .port_content {
+    width: 100%;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .port_content > ul > li {
+    display: none;
+    list-style: none;
+    margin: 10px;
+  }
+
+  .port_content > ul > li:first-child {
+    display: block;
+  }
+
+  .port_content > ul > li > a > img {
+    width: 240px;
+    height: 200px;
+  }
+
 }
