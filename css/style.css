@@ -302,9 +302,11 @@ a:hover {
   }
 
   .port_content > ul > li {
-    display: none;
-    list-style: none;
-    margin: 10px;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: auto;
   }
 
   .port_content > ul > li:first-child {
